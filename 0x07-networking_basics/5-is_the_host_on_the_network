@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Pings n IP address
+# Pings an IP address
+# Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
 
-if [$# -eq 0]
+if [ $# -eq 0 ]
 then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 else
