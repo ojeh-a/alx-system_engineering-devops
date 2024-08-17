@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# Turns on an apache server
-service apache2 start
+
+
+# Fix docker container
+sudo service apache2 start
