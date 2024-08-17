@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Fix what's keeping Ubuntu container from listening  on port 80.
+# Change to read port 80 and restart nginx
 sudo sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
 sudo service nginx restart
 sudo pkill -o nginx
